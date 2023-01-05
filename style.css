@@ -1,7 +1,23 @@
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(src/img/bg.jpg);
+  font-family: "Mundial";
+  font-style: normal;
+}
+
 .navbar-brand {
   font-family: "Mundial", sans serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.06em;
-  vertical-align: baseline !important;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.big-text {
+  font-weight: 200;
+  font-size: 160px;
+  line-height: 152px;
+  letter-spacing: 0.09em;
 }
