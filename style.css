@@ -11,7 +11,7 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.06em;
-  padding-left: 4vw;
+
   padding-right: 4vw;
 }
 
@@ -19,5 +19,10 @@ body {
   font-weight: 200;
   font-size: 160px;
   line-height: 152px;
+  letter-spacing: 0.09em;
+}
+.nav-link {
+  padding-right: 2vw !important;
+  text-transform: uppercase;
   letter-spacing: 0.09em;
 }
