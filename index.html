@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
                 <img src="src/img/sc-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                SOFIA CIFUENTES
+                SOFIA <span class="hide-mobile">CIFUENTES</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,8 +49,30 @@
         </div>
         </div>
     </nav>
-    <p class="big-text">SOFIA</p>
-    <p class="big-text">CIFUENTES</p>
+    <!-- big text -->
+    <div class="container text-center" id="big-text-container">
+        <div class="row" id="sofia-row">
+            <p class="big-text" id="sofia">SOFIA</p>
+        </div>
+        <div class="row" id="cifuentes-row">
+            <p class="big-text" id="cifuentes">CIFUENTES</p>
+        </div>
+    </div>
+    <!-- buttons -->
+    <div class="contact-container row  mt-5 justify-content-center">
+        <div class="col-lg-2 col-md-3 col-sm-8 col-xs-12 text-center mb-4">
+            <a href="about.html">
+                <button class="about" role="button" href="about.html">
+                    About me
+                </button></a>
+        </div>
+        <div class="col-lg-2 col-sm-8 col-xs-12 col-md-3 text-center">
+            <a href="about.html#contact"><button class="contact" role="button">
+                    Contact me
+                </button>
+            </a>
+        </div>
+
 </body>
 
 </html>
