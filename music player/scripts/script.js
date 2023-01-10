@@ -13,36 +13,35 @@ new Vue({
           name: "Tarte de Limão",
           artist: "Sofia Aguiar",
           cover:
-            "https://images.unsplash.com/photo-1586718418497-76bcc1e1dbfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
+            "https://images.pexels.com/photos/5419102/pexels-photo-5419102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
           source: "music player/mp3/1.mp3",
           url: "https://www.instagram.com/sumugz",
           favorited: false,
         },
         {
-          name: "Everybody Knows",
+          name: "Para pa ra ra",
           artist: "Sofia Aguiar",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/2.jpg",
+            "https://images.unsplash.com/photo-1578263527143-ec29846bd603?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
           source: "music player/mp3/2.mp3",
           url: "https://www.instagram.com/sumugz",
           favorited: true,
         },
         {
-          name: "Extreme Ways",
+          name: "Just the two of us - cover",
           artist: "Sofia Aguiar",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/3.jpg",
+            "https://images.unsplash.com/photo-1500534623283-312aade485b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
           source: "music player/mp3/3.m4a",
           url: "https://www.instagram.com/sumugz",
           favorited: false,
         },
         {
-          name: "Butterflies",
+          name: "Espiritu de Dios - cover",
           artist: "Sofia Aguiar",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/4.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/4.mp3",
+            "https://images.unsplash.com/photo-1632260260864-caf7fde5ec36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+          source: "music player/mp3/4.m4a",
           url: "https://www.instagram.com/sumugz",
           favorited: false,
         },
@@ -55,46 +54,6 @@ new Vue({
             "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
           url: "https://www.instagram.com/sumugz",
           favorited: true,
-        },
-        {
-          name: "Genius ft. Sia, Diplo, Labrinth",
-          artist: "LSD",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
-          url: "https://www.instagram.com/sumugz",
-          favorited: false,
-        },
-        {
-          name: "The Comeback Kid",
-          artist: "Lindi Ortega",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-          url: "https://www.instagram.com/sumugz",
-          favorited: true,
-        },
-        {
-          name: "Overdose",
-          artist: "Grandson",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-          url: "https://www.instagram.com/sumugz",
-          favorited: false,
-        },
-        {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-          url: "https://www.instagram.com/sumugz",
-          favorited: false,
         },
       ],
       currentTrack: null,
