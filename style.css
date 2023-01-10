@@ -76,6 +76,9 @@ body {
   font-family: "Mundial";
   font-style: normal;
 }
+#body-about {
+  background: white;
+}
 /* navbar */
 .navbar-brand {
   font-family: "Mundial", sans serif;
@@ -180,3 +183,13 @@ body {
   min-height: 500px;
 }
 */
+
+/* about page*/
+#about-me {
+  font-weight: 200;
+  font-size: calc(20px + 10vw);
+  letter-spacing: 0.09em;
+  line-height: 1em;
+  width: auto !important;
+  height: auto !important;
+}
