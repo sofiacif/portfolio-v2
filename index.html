@@ -59,18 +59,74 @@
         </div>
     </div>
     <!-- buttons -->
-    <div class="contact-container row  mt-5 justify-content-center">
-        <div class="col-lg-2 col-md-3 col-sm-8 col-xs-12 text-center mb-4">
+
+    <div class="contact-container row  mt-5 justify-content-center g-0">
+        <div class="col-lg-3 col-md-3 col-sm-8 col-xs-12 text-center mb-4">
             <a href="/about.html">
                 <button class="about" role="button" href="about.html">
                     About me
                 </button></a>
         </div>
-        <div class="col-lg-2 col-sm-8 col-xs-12 col-md-3 text-center">
+        <div class="col-lg-3 col-md-3 col-sm-8 col-xs-12  text-center">
             <a href="/contact.html"><button class="contact" role="button">
                     Contact me
                 </button>
             </a>
+        </div>
+
+        <!-- carroussel -->
+        <div class="carousel-container mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://isitsunnytoday.netlify.app" target="_blank" title="Weather app project">
+                            <img src="/src/img/isitsunny.jpg" class="d-block w-100" alt="is it sunny weather app"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Is it sunny?</h5>
+                            <p>Weather app that shows the temperature in your city based on the she codes
+                                API</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item"><a
+                            href="https://www.shecodes.io/workshops/shecodes-basics-fce9b431-f74c-4260-a633-606494ff1757/projects/1188187"
+                            target="_blank" title="Ericeira project">
+                            <img src="/src/img/ericeira.jpg" class="d-block w-100" alt="beach in ericeira"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ericeira</h5>
+                            <p><em>Ericeira, onde o mar é mais azul</em> is a project made for SheCodes
+                                course homework</p>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.behance.net/gallery/159135411/Macarico-Ocean-Literacy-Programme"
+                            target="_blank" title="Maçarico project">
+                            <img src="/src/img/macarico.png" class="d-block w-100" alt="maçarico bird logo"></a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Maçarico</h5>
+                            <p>Visual identity design for an Ocean Literacy programme for +ATLANTIC</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
 
 </body>

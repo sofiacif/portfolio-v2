@@ -163,3 +163,20 @@ body {
   color: white;
   background-color: var(--primary-color);
 }
+
+.carousel-container {
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+/*
+.carousel .carousel-item {
+  height: 50vw;
+}
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+*/
