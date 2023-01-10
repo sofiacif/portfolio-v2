@@ -46,12 +46,38 @@ new Vue({
           favorited: false,
         },
         {
-          name: "The Final Victory",
-          artist: "Haggard",
+          name: "I'm On Fire",
+          artist: "Sofia Aguiar - cover",
           cover:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
-          source:
-            "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
+            "https://images.pexels.com/photos/672636/pexels-photo-672636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          source: "music player/mp3/5.m4a",
+          url: "https://www.instagram.com/sumugz",
+          favorited: true,
+        },
+        {
+          name: "In My Life",
+          artist: "Sofia Aguiar - cover",
+          cover:
+            "https://images.pexels.com/photos/5339442/pexels-photo-5339442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          source: "music player/mp3/6.m4a",
+          url: "https://www.instagram.com/sumugz",
+          favorited: true,
+        },
+        {
+          name: "Horse With No Name",
+          artist: "Sofia Aguiar - cover",
+          cover:
+            "https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          source: "music player/mp3/7.mp3",
+          url: "https://www.instagram.com/sumugz",
+          favorited: true,
+        },
+        {
+          name: "Slow",
+          artist: "Sofia Aguiar",
+          cover:
+            "https://images.pexels.com/photos/3473569/pexels-photo-3473569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          source: "music player/mp3/8.m4a",
           url: "https://www.instagram.com/sumugz",
           favorited: true,
         },
