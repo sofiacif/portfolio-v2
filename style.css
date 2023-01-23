@@ -80,8 +80,12 @@ body {
   font-family: "Mundial";
   font-style: normal;
 }
-#body-about {
+.body-white {
   background: white;
+}
+
+.projects-bg {
+  background: rgb(239, 239, 239);
 }
 /* navbar */
 .navbar-brand {
@@ -210,4 +214,7 @@ img {
 .scale {
   transform: scaleY(1.05);
   padding-top: 5px;
+}
+#card1 {
+  border: 0px;
 }
