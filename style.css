@@ -218,3 +218,7 @@ img {
 #card1 {
   border: 0px;
 }
+#me {
+  max-width: 80%;
+  margin: 0;
+}
