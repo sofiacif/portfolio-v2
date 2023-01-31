@@ -32,7 +32,15 @@
   #about-me {
     font-size: calc(20px + 3vw);
   }
+  #contact-me {
+    font-size: calc(20px + 8vw);
+    text-align: center;
+  }
   #icons-contact {
+    padding-top: 10vw;
+  }
+  #container-contact-me {
+    text-align: center;
   }
 }
 /* phone*/
@@ -49,6 +57,16 @@
     margin-top: 20%;
     background: none;
   }
+  #contact-me {
+    font-size: calc(20px + 10vw);
+    text-align: center;
+  }
+  #container-contact-me {
+    text-align: center;
+  }
+  #icons-contact {
+    padding-top: 5vw;
+  }
 }
 /* tablet*/
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -63,6 +81,12 @@
   #big-text-container {
     margin-top: 15%;
     background: none;
+  }
+  #contact-me {
+    font-size: calc(20px + 10vw);
+  }
+  #icons-contact {
+    padding-top: 15vw;
   }
 }
 /* desktop*/
@@ -79,6 +103,12 @@
     margin-top: 8%;
     margin-bottom: 5%;
     background: none;
+  }
+  #contact-me {
+    font-size: calc(20px + 8vw);
+  }
+  #icons-contact {
+    padding-top: 17vw;
   }
 }
 body {
@@ -260,4 +290,12 @@ img {
 #me {
   max-width: 80%;
   margin: 0;
+}
+/* contact page*/
+#contact-me {
+  font-weight: 200;
+  letter-spacing: 0.09em;
+  line-height: 1em;
+  width: auto !important;
+  height: auto !important;
 }
