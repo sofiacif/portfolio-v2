@@ -328,3 +328,12 @@ footer {
   font-style: normal;
   font-weight: 300;
 }
+.github-link {
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.github-link:hover {
+  color: var(--primary-color) !important;
+  text-decoration: underline;
+}
