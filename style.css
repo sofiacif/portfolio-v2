@@ -337,3 +337,12 @@ footer {
   color: var(--primary-color) !important;
   text-decoration: underline;
 }
+
+.project-main {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.project-description {
+  margin: 0 20% 0 20%;
+  text-align: center;
+}
